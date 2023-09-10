@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <!---------------nav-bar------------------>
+    <div class="nav-bar">
+        <div class="nav-left">
+            <p>Gopi Kant</p>
+        </div>
+        <ul class="nav-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="new-bar">
+        <div class="nav-left">
+            <p>Gopi Kant</p>
+        </div>
+        <div class="menu-bar">
+            <div class="menu-icon" onclick="togglemenu()">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+            <div class="menu-links">
+                    <li><a href="#about" onclick="togglemenu()">About</a></li>
+                    <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </div>
+
+    <!--------------front-page------------------>
+    <div class="front-page">
+        <div class="profile">
+            <img src="profile.png">
+        </div>
+        <div class="gap"></div>
+        <div class="profile-text">
+            <p id="greet">Hey!, I am</p>
+            <p id="name"><b>Gopi Kant</b></p>
+            <p id="interest">Full Stack Developer</p>
+            <div class="btn">
+                <button>Download CV</button>
+                <button>Contact Info</button>
+            </div>
+            <div class="contact-icons">
+                <a href="https://github.com/gopikant21" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/gopi-kant-995251257/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="mailto: gopikant5jan@gmail.com"><i class="fab fa-google fa-2xl"></i></a>
+                <a href="https://instagram.com/44g.kant99?utm_source=qr&igshid=YzU1NGVlODEzOA==" target="_blank"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+    <section id="about">
+        <div class="section-head">
+            <p class="sec-upper-head">Get To Know <br>More</p>
+            <p class="sec-main-head">About Me</p>
+        </div>
+        <div class="section-text">
+            <p>I am commpetetive programing enthusiast. I am learning basic DSA problems yet. I also like to create interesting websites. I also like to learn full stack web development.Right now, I am learning HTML, CSS and Javascript. This portfolio is my first project of web dev. After learning full stack web dev, i want to explore machine learning field.</p>
+        </div>
+        <div class="education">
+            
+            <div class="board">
+                <i class="fa-solid fa-graduation-cap fa-xl"></i>
+                <p>2020</p>
+                <h3>10th Board</h3>
+                <h4>Hansraj Public School, Bodhgaya</h4>
+                <h3>93.8%</h3>
+                
+            </div>
+            <div class="board">
+                <i class="fa-solid fa-graduation-cap fa-xl"></i>
+                <p>2022</p>
+                <h3>12th Board</h3>
+                <h4>Gaya College, Gaya</h4>
+                <h3>88%</h3>
+                
+            </div>
+            <div class="board">
+                <i class="fa-solid fa-graduation-cap fa-xl"></i>
+                <p>2022-26</p>
+                <h3>College</h3>
+                <h4>IIT Kharagpur</h4>
+                <p>Metallurgical & Materials Engineering</p>
+                <h3>CGPA: 7.45</h3>
+                
+            </div>
+        </div>
+       
+    </section>
+
+    <!--------------skills--------------->
+    <section id="skills">
+        <div class="section-head">
+            <p class="sec-upper-head">Explore My</p>
+            <p class="sec-main-head">Experience</p>
+        </div>
+        <div class="skills-container">
+            <div class="container">
+                <h3 class="container-head">C</h3>
+                <p>Learn from</p>
+                <h4>Apna College</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">C++</h3>
+                <p>Learn from</p>
+                <h4>freeCodeCamp.org</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">Python</h3>
+                <p>Learn from</p>
+                <h4>Krish Naik</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">HTML</h3>
+                <p>Learn from</p>
+                <h4>Apna College</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">CSS</h3>
+                <p>Learn from</p>
+                <h4>Apna College</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">Javascript</h3>
+                <p>Learn from</p>
+                <h4>freeCodeCamp.org</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">DSA</h3>
+                <p>Learn from</p>
+                <h4>Apna College</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">Probability & Statistics</h3>
+                <p>Learn from</p>
+                <h4>Krish Naik</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">Competitive Programing</h3>
+                <p>Learn from</p>
+                <h4>Vivek Gupta</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+            <div class="container">
+                <h3 class="container-head">Machine Learning</h3>
+                <p>Learn from</p>
+                <h4>Krish Naik</h4>
+                <i class="fa-brands fa-youtube fa-2xl"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------projects----------------->
+    <section id="projects">
+        <div class="section-head">
+            <p class="sec-upper-head">Browse My Recent</p>
+            <p class="sec-main-head">Projects</p>
+        </div>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Simple-recipe</h3>
+                <img src="simple_recipe.jpg">
+                <button class="btn">Github Link</button>
+            </div>
+            <div class="project">
+                <h3>Blackjack Game</h3>
+                <img src="blackjack.jpeg">
+                <button class="btn">Github Link</button>
+            </div>
+            <div class="project">
+                <h3>My Portfolio</h3>
+                <img src="profile.png">
+                <button class="btn">Github Link</button>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-------------------contact----------------->
+    <section id="contact">
+        <div class="section-head">
+            <p class="sec-upper-head">Get In Touch</p>
+            <p class="sec-main-head">Contact Me</p>
+        </div>
+        <div class="contact-container">
+            
+                <a href="mailto: gopikant5jan@gmail.com"><i class="fab fa-google fa-2xl"></i> gopikant5jan@gmail.com</a>
+                <a href="https://www.linkedin.com/in/gopi-kant-995251257/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i> Linkedin</a>
+            
+        </div>
+    </section>
+
+
+<!-------------footer--------------->
+    <footer>
+        <ul class="nav-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p>Copyright © 2023 John Doe. All Rights Reserved</p>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

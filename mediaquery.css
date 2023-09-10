@@ -1,0 +1,123 @@
+
+@media screen and (max-width: 1122px){
+    .nav-bar{
+        display: none;
+    }
+    .new-bar{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10rem;
+    }
+    .front-page{
+        flex-direction: column;
+    }
+    .profile{
+        margin-right: auto;  
+    }
+    
+    .profile-text{
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn{
+        margin: 1rem;
+    }
+    .contact-icons{
+        justify-content: center;
+        margin-bottom: 10vh;
+    }
+
+
+
+    
+
+
+/*----------about------------*/
+    section{
+        margin: 0 7.5rem;
+    }
+    .education{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .board{
+        margin-bottom: 0;
+    }
+    .section-text{
+        padding-top: 100px;
+    }
+
+
+/*---------------skills--------------*/
+    .skills-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+/*-------------projects--------------*/
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+
+@media screen and (max-width: 850px){
+    .front-page{
+        flex-direction: column;
+    }
+    .profile{
+        margin-right: auto;
+    }
+    .profile-text{
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn{
+        margin: 1rem;
+    }
+    .contact-icons{
+        justify-content: center;
+    }
+
+
+
+
+    .skills-container{
+        grid-template-columns: 1fr ;
+    }
+}
+
+@media screen and (max-width: 1305px) and (min-width: 1100px){
+    section{
+        margin: 0 7.5rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    *{
+        min-width: fit-content;
+    }
+    section{
+        margin: 25px;
+    }
+    .profile img{
+        min-height: 1rem;
+        min-width: 1rem;   
+    }
+    .project img{
+        min-width:6rem;
+        min-height:10rem;
+    }
+    footer{
+        margin: 50px;
+    }
+    
+    
+}
